@@ -1,0 +1,21 @@
+{
+  "name": "rescript-project-template",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "rescript",
+    "clean": "rescript clean -with-deps",
+    "start": "rescript build -w"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "rescript": "*",
+    "ws": "^8.0.0"
+  },
+  "devDependencies": {
+    "bs-ws": "^1.1.4"
+  }
+}
