@@ -21,4 +21,4 @@ node src/Demo.bs.js
 ```
 
 ## CLASSES
-- https://dusty.phillips.codes/2021/03/16/using-rescript-with-nodejs-and-express/
+- https://dusty.phillips.codes/2021/02/09/actions-and-reducers-in-rescript/
