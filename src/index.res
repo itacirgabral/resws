@@ -7,5 +7,5 @@ module A: {
 } = {
   let a = 3
   let b = 4
-  Js.log("Hello, World!")
+  Js.log("Oi restart on save!")
 }

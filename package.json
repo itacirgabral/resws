@@ -2,9 +2,11 @@
   "name": "rescript-project-template",
   "version": "0.0.1",
   "scripts": {
-    "build": "rescript",
-    "clean": "rescript clean -with-deps",
-    "start": "rescript build -w"
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "nodemon": "nodemon src",
+    "start": "node src"
   },
   "keywords": [
     "rescript"
@@ -16,6 +18,7 @@
     "ws": "^8.0.0"
   },
   "devDependencies": {
-    "bs-ws": "^1.1.4"
+    "bs-ws": "^1.1.4",
+    "nodemon": "^2.0.12"
   }
 }

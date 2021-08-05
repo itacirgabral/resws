@@ -2,7 +2,7 @@
 'use strict';
 
 
-console.log("Hello, World!");
+console.log("Oi restart on save!");
 
 var A = {
   b: 4
