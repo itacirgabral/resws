@@ -5,8 +5,8 @@
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
     "watch": "bsb -make-world -w",
-    "nodemon": "nodemon src",
-    "start": "node src"
+    "nodemon": "nodemon src/App.bs.js",
+    "start": "node src/App.bs.js"
   },
   "keywords": [
     "rescript"
